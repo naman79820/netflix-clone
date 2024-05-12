@@ -1,0 +1,391 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: black;
+}
+
+
+
+.main {
+
+    height: 75vh;
+    background-image: url(assets/images/IN-en-20240506-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1442px, 100vw)
+}
+
+.main .box {
+    height: 75vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    
+
+
+
+
+}
+
+
+
+
+
+.main nav {
+    display: flex;
+    max-width: 65vw;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    gap: 100px
+}
+
+nav {
+    height: 62px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.main img {
+    width: 160px;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.flex .btn {
+    position: relative;
+    z-index: 10;
+
+    margin: 0 10px;
+    background-color: red;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 7px 12px;
+}
+
+
+
+.hero {
+    color: white;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height:calc(100% - 62px);
+    gap: 20px;
+    z-index: 10;
+
+
+}
+
+.hero> :nth-child(1) {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    
+
+
+}
+
+.hero> :nth-child(2) {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+
+.hero> :nth-child(3) {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    text-align: center;
+
+
+}
+
+.btnstarted {
+    position: relative;
+    z-index: 10;
+
+    margin: 0px 10px;
+    background-color: red;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 6px;
+    min-height: 55px;
+    padding: 0px 40px;
+}
+
+.btnnormal{
+    position: relative;
+    z-index: 10;
+
+    margin: 0 10px;
+    background-color: red;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 7px 12px;
+    margin-top: 0;
+    
+
+}
+
+.separation {
+    display: flex;
+    height: 8px;
+    background-color: rgb(27, 27, 27);
+ 
+
+
+
+}
+.hero input {
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border-radius: 6px;
+    font-size: 16px;
+    min-height: 45px ;
+    padding-right: 195px;
+    padding-top: 8px;
+    padding-left: 5px;
+    border: 1px solid rgba(245, 245, 245, 0.5);
+
+
+}
+.btnlanguages{
+    
+    position: relative;
+    z-index: 10;
+    margin: 0 10px;
+    color: white;
+    background-color: rgba(199, 178, 178, 0.034);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 7px 30px;
+    margin-top: 0;
+    border: 1px solid white;
+
+}
+
+    
+    
+   
+   
+
+
+.first{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+   
+    
+    
+}
+.texts{
+    color: white;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+    
+}
+
+.secimg {
+    
+    position: relative;
+    display: flex;
+    
+    
+}
+
+.secimg img {
+
+    position: relative;
+    z-index: 10;
+    padding-right: 140px;
+    margin: 20px 0px;
+    padding-bottom: 75px;
+}
+
+.secimg video {
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 76px;
+
+
+}
+.texts> :nth-child(1){
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+   text-align: center;
+   padding-bottom: 20px;
+  
+}
+
+.texts> :nth-child(2){
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   
+
+}
+.texts> :nth-child(3){
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+   text-align: center;
+   
+   
+
+}
+   
+   
+    
+
+
+.texts2nd{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.second{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+ .texts2nd> :nth-child(1) {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+   text-align: center;
+   padding-bottom: 0px;
+
+ }
+ .texts2nd> :nth-child(2){
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+   text-align: center;
+   padding-bottom: 15px;
+ }
+
+ .texts2nd> :nth-child(3){
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+   text-align: center;
+
+
+ }
+
+ .texts2nd> :nth-child(4){
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+   text-align: center;
+
+
+ }
+ .video1{
+    position: absolute;
+    padding: 65px 0px;
+ }
+ .third{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+ }
+ .texts3rd> :nth-child(1) {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+   text-align: center;
+   padding-bottom: 20px;
+ }
+ .texts3rd> :nth-child(2){
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+
+ }
+ .texts3rd> :nth-child(3){
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+   text-align: center;
+ }
+ .texts3rd{
+    color: white;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   flex-direction: column;
+   
+    
+}
+
+.secimg1 img {
+    position: relative;
+    z-index: 10;
+    padding-right: 140px;
+    padding-bottom: 75px;
+    z-index: 10;
+} 
+
+.secimg1 video {
+    position: absolute;
+    padding-top: 35px;
+    left: 49%;
+    width: 396px;;
+}
+
+
+
+
