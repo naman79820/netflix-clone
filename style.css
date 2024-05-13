@@ -15,12 +15,14 @@ body {
 .main {
 
     height: 75vh;
+    width: 100%;
     background-image: url(assets/images/IN-en-20240506-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1442px, 100vw)
 }
+
 
 .main .box {
     height: 75vh;
@@ -29,7 +31,7 @@ body {
     opacity: 0.7;
     position: absolute;
     top: 0;
-    
+
 
 
 
@@ -42,7 +44,7 @@ body {
 
 .main nav {
     display: flex;
-    max-width: 65vw;
+    max-width: 60vw;
     justify-content: space-between;
     text-align: center;
     margin: auto;
@@ -89,19 +91,20 @@ nav {
     display: flex;
     justify-content: center;
     text-align: center;
-    height:calc(100% - 62px);
+    height: calc(100% - 62px);
     gap: 20px;
     z-index: 10;
 
 
 }
 
+
 .hero> :nth-child(1) {
     font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-weight: 900;
     text-align: center;
-    
+
 
 
 }
@@ -140,7 +143,7 @@ nav {
     padding: 0px 40px;
 }
 
-.btnnormal{
+.btnnormal {
     position: relative;
     z-index: 10;
 
@@ -152,7 +155,7 @@ nav {
     border-radius: 6px;
     padding: 7px 12px;
     margin-top: 0;
-    
+
 
 }
 
@@ -160,18 +163,19 @@ nav {
     display: flex;
     height: 8px;
     background-color: rgb(27, 27, 27);
- 
+
 
 
 
 }
+
 .hero input {
     background-color: rgba(23, 23, 23, 0.2);
     color: white;
     font-family: "Poppins", sans-serif;
     border-radius: 6px;
     font-size: 16px;
-    min-height: 45px ;
+    min-height: 45px;
     padding-right: 195px;
     padding-top: 8px;
     padding-left: 5px;
@@ -179,8 +183,9 @@ nav {
 
 
 }
-.btnlanguages{
-    
+
+.btnlanguages {
+
     position: relative;
     z-index: 10;
     margin: 0 10px;
@@ -195,36 +200,40 @@ nav {
 
 }
 
-    
-    
-   
-   
 
 
-.first{
+
+
+
+
+.first {
     display: flex;
     justify-content: center;
     text-align: center;
-   
-   
-    
-    
+    flex-wrap: wrap;
+
+
+
+
 }
-.texts{
+
+
+.texts {
     color: white;
-   display: flex;
-   text-align: center;
-   justify-content: center;
-   flex-direction: column;
-    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 34px 0;
+
 }
 
 .secimg {
-    
+
     position: relative;
     display: flex;
-    
-    
+
+
 }
 
 .secimg img {
@@ -233,7 +242,7 @@ nav {
     z-index: 10;
     padding-right: 140px;
     margin: 20px 0px;
-    padding-bottom: 75px;
+    padding-bottom: 75px;   
 }
 
 .secimg video {
@@ -243,43 +252,48 @@ nav {
 
 
 }
-.texts> :nth-child(1){
+
+.texts> :nth-child(1) {
     font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
     display: flex;
-   text-align: center;
-   padding-bottom: 20px;
-  
+
 }
 
-.texts> :nth-child(2){
-    
+.texts> :nth-child(2) {
+
     font-family: "Poppins", sans-serif;
     font-size: 24px;
+    text-align: center;
     display: flex;
-   text-align: center;
-   justify-content: center;
-   flex-direction: column;
-   
+
 
 }
-.texts> :nth-child(3){
-    
+.texts> :nth-child(3) {
+
     font-family: "Poppins", sans-serif;
     font-size: 24px;
+    text-align: center;
     display: flex;
-   text-align: center;
-   
-   
-
-}
-   
-   
     
 
 
-.texts2nd{
+}
+
+
+
+
+.second {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.texts2nd {
     color: white;
     display: flex;
     text-align: center;
@@ -287,88 +301,96 @@ nav {
     flex-direction: column;
 
 }
-.second{
+
+
+
+.texts2nd> :nth-child(1) {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
     display: flex;
-    justify-content: center;
     text-align: center;
-    
+    padding-bottom: 0px;
+
 }
- .texts2nd> :nth-child(1) {
+
+.texts2nd> :nth-child(2) {
     font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-weight: 900;
     display: flex;
-   text-align: center;
-   padding-bottom: 0px;
+    text-align: center;
+    padding-bottom: 15px;
+}
 
- }
- .texts2nd> :nth-child(2){
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-weight: 900;
-    display: flex;
-   text-align: center;
-   padding-bottom: 15px;
- }
-
- .texts2nd> :nth-child(3){
+.texts2nd> :nth-child(3) {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     display: flex;
-   text-align: center;
+    text-align: center;
 
 
- }
+}
 
- .texts2nd> :nth-child(4){
+.texts2nd> :nth-child(4) {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     display: flex;
-   text-align: center;
+    text-align: center;
 
 
- }
- .video1{
+}
+.videos img{
+    padding-bottom: 50px;
+}
+
+.video1 {
     position: absolute;
     padding: 65px 0px;
- }
- .third{
+    
+}
+
+.third {
     display: flex;
     justify-content: center;
     text-align: center;
-    
- }
- .texts3rd> :nth-child(1) {
+
+}
+
+.texts3rd> :nth-child(1) {
     font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-weight: 900;
     display: flex;
-   text-align: center;
-   padding-bottom: 20px;
- }
- .texts3rd> :nth-child(2){
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    display: flex;
-   text-align: center;
-   justify-content: center;
-   flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
- }
- .texts3rd> :nth-child(3){
+.texts3rd> :nth-child(2) {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     display: flex;
-   text-align: center;
- }
- .texts3rd{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.texts3rd> :nth-child(3) {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+}
+
+.texts3rd {
     color: white;
-   display: flex;
-   text-align: center;
-   justify-content: center;
-   flex-direction: column;
-   
-    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+
 }
 
 .secimg1 img {
@@ -376,16 +398,123 @@ nav {
     z-index: 10;
     padding-right: 140px;
     padding-bottom: 75px;
+    padding-top: 40px;
     z-index: 10;
-} 
+}
 
 .secimg1 video {
     position: absolute;
-    padding-top: 35px;
+    padding-top: 80px;
     left: 49%;
-    width: 396px;;
+    width: 396px;
+    ;
 }
 
 
 
 
+.forth {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.texts4th {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texts4th> :nth-child(1) {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.texts4th> :nth-child(2) {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+
+
+}
+
+.texts4th> :nth-child(3) {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+
+}
+
+.texts4th> :nth-child(4) {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+
+}
+
+.faq h2 {
+
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+.faq {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    font-size: 24px;
+    font-family: "poppins", sans-serif;
+}
+
+.faqbox {
+    transition: all 0.2s ease-out;
+    display: flex;
+ justify-content: space-between;
+    max-width: 50vw;
+    background-color: #2d2d2d;
+    padding: 24px;
+    margin: 10px auto;
+    cursor: pointer;
+
+}
+.faqbox:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+   
+  
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap:23px
+}
+footer{
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 14px;
+}
+.footer a{
+    font-size: 14px;
+    color: white;
+    
+}
+footer .questions{
+    padding: 34px 0px;
+
+}
